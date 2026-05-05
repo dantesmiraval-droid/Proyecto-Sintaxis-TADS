@@ -1,0 +1,52 @@
+TAD venta - Especificación
+
+crearVenta()
+- crea y retorna una venta vacía
+
+cargarVenta(venta, codigo, nombreServicio, tipoActividad, operadorTuristico, planPago, importe, fechaHora)
+- asigna valores a la venta 
+
+verCodigo(venta)
+- Retorna el codigo de la venta realizada
+
+verNombreServicio(venta)
+- Retorna el nombre del servicio correspondiente a dicha venta
+
+verTipoActividad(venta)
+- Retorna el tipo de actividad correspondiente a la venta 
+
+verOperadorTuristico(venta)
+- Retorna el operador turístico correspondiente a la venta
+
+verPlanPago(venta)
+- Retorna el Plan de Pago correspondiente a la venta
+
+verImporte(venta)
+- Retorna el importe correspondiente a la venta
+
+verFechaHora(venta)
+- Retorna la fecha y la hora correspondiente a la venta
+
+asignarVenta(venta1, venta2)
+- Copia los datos de la venta1 en la venta2
+
+cambiarCodigo(venta, nuevoCodigo)
+- Modifica el codigo de la venta
+
+cambiarNombreServicio(venta, nuevoNombre)
+- Modifica el nombre del servicio de la venta
+
+cambiarTipoActividad (venta, nuevoTipo)
+- Modifica el tipo de actividad de la venta
+
+cambiarOperadorTuristico(venta, nuevoOperador)
+- Modifica el operador turístico de la venta
+
+cambiarPlanPago(venta, nuevoPlan)
+- Modifica el plan de pagos de la venta 
+
+cambiarImporte(venta, nuevoImporte)
+- Modifica el importe de la venta 
+
+cambiarFechaHora(venta, nuevoFecha)
+- Modifica la fecha y hora de la venta

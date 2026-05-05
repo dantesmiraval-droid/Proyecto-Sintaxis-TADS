@@ -1,0 +1,21 @@
+TAD Cola Operador de turismo - Especificación
+
+crearColaOperador()
+- Crea y retorna una cola vacía lista para almacenar datos de ventas por operador
+
+esVacia(cola)
+- Recibe una cola y retorna True si la cola no tiene elementos, False en caso contrario
+
+encolar(cola, elemento)
+- Agrega un elemento (en este caso una venta) al final de la cola (utilizando la estructura FIFO)
+
+desencolar(cola)
+- Extrae y retorna el elemento (la venta) que se encuentra al princpio de la cola (la venta que lleva mas tiempo esperando).
+- El elemento (la venta) es eliminado de la estructura original (la cola)
+
+tamanioCola(cola)
+- Retorna la cantidad de elementos de la cola 
+
+copiarCola(cola1, cola2)
+- Copia la cola2 en la cola1, sin perder el orden de la cola1 y sin destruir la cola2
+- utiliza una estructura auxiliar para garantizar la integridad de los datos de las colas respectivas
