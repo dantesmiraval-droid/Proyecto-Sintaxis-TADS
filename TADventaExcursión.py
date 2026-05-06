@@ -1,6 +1,6 @@
 #Crea una venta vacía con el formato de los tipos de datos que el usuario va a registrar
 def crearVenta():
-    venta = [0,"","","","",0.0,None]
+    venta = [0,"","","","",0.0,""]
     return venta
 
 #Ingreso de valores a la estructura de "venta"
